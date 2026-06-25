@@ -1,0 +1,21 @@
+# EquiDrug — pinned free/open-source dependencies
+# All packages below are free and open source (no paid APIs, no credit card).
+# Python 3.10+ required.
+
+# --- Core ML framework ---
+torch==2.2.2                 # PyTorch, BSD-style license
+torch-geometric==2.5.3       # PyTorch Geometric (graph NN), MIT
+
+# --- Geometry / equivariance ---
+e3nn==0.5.1                  # SE(3)-equivariant building blocks, MIT
+
+# --- Molecule parsing / 3D embedding ---
+rdkit==2023.9.6              # RDKit (maintained PyPI package), BSD
+
+# --- Numerics / data ---
+numpy==1.26.4                # pinned <2.0 for torch/pyg compatibility, BSD
+pandas==2.2.2                # BSD
+
+# --- Backend API ---
+fastapi==0.111.0             # MIT
+uvicorn==0.30.1              # ASGI server, BSD

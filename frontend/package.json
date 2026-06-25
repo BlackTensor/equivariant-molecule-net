@@ -1,0 +1,22 @@
+{
+  "name": "equidrug-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "React + Vite frontend for EquiDrug — interactive geometric AI for drug discovery.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "3dmol": "^2.5.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.9.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

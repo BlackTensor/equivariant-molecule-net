@@ -1,0 +1,22 @@
+# Internal planning / session files
+CLAUDE.md
+
+# Data & model weights (large, auto-downloaded / regenerated)
+data/
+weights/
+
+# Node / frontend
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
